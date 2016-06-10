@@ -14,6 +14,13 @@ body {
     background: grey;
 }
 
+div{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/poi_info.png);
+    background-repeat: no;
+}
+
 .leftDiv{
     width: 30%;
     height: 100%;
@@ -23,10 +30,9 @@ body {
 }
 
 .container{
-    width: 654px;
+    width: 640px;
     height: 2354px;
     margin: 0 auto;
-    /*float: left;*/
     background: rgb(204,205,205);
 }
 
@@ -36,4 +42,29 @@ body {
     margin: 0px;
     float: left;
     background: grey;
+}
+
+#header{
+    position: absolute;
+    width: 640px;
+    height: 128px;
+    margin: 0 auto;
+    display: block;
+}
+
+#header1{
+    position: absolute;
+    width: 640px;
+    height: 37px;
+    display: block;
+    background-position:0px 0px;
+}
+
+
+#header2{
+    position: absolute;
+    width: 640px;
+    height: 91px;
+    display: block;
+    background-position:0px 37px;
 }
