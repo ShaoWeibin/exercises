@@ -22,12 +22,12 @@ body {
     background: gray;
 }
 
-.centerDiv{
-    width: 500px;
-    height: 100%;
+.container{
+    width: 654px;
+    height: 2354px;
     margin: 0 auto;
     /*float: left;*/
-    background: red;
+    background: rgb(204,205,205);
 }
 
 .rightDiv{
