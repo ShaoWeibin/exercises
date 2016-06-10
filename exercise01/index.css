@@ -12,13 +12,16 @@ body {
     width: 100%;
     height: 100%;
     background: grey;
+    clear:both;
 }
 
 div{
     margin: 0px;
     padding: 0px;
+    display: block;
     background-image: url(img/poi_info.png);
-    background-repeat: no;
+    background-repeat: no-repeat;
+    background-position:bottom right;
 }
 
 .leftDiv{
@@ -44,27 +47,135 @@ div{
     background: grey;
 }
 
+.spliter{
+    width: 640px;
+    height: 25px;
+    float: left;
+}
+
 #header{
-    position: absolute;
+    /*position: absolute;*/
     width: 640px;
     height: 128px;
-    margin: 0 auto;
-    display: block;
+    float: left;
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    /*background-position:100% 100%;*/
 }
 
 #header1{
-    position: absolute;
+    /*position: absolute;*/
     width: 640px;
     height: 37px;
-    display: block;
+    /*display: block;*/
     background-position:0px 0px;
 }
 
 
 #header2{
-    position: absolute;
+    /*position: absolute;*/
     width: 640px;
     height: 91px;
-    display: block;
-    background-position:0px 37px;
+    /*margin-top: 37px;*/
+    /*display: block;*/
+    background-position:0px -37px;
+}
+
+#info1{
+     /*position: absolute;*/
+     width: 640px;
+     height: 533px;
+     float: left;
+     /*margin-top: 128px;*/
+     /*margin: 0 auto;*/
+     /*display: block;*/
+     background-position:0px -128px;
+ }
+
+#info2{
+    /*position: absolute;*/
+    width: 640px;
+    height: 106px;
+    float: left;
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -682px;
+}
+
+#info3{
+    /*position: absolute;*/
+    width: 640px;
+    height: 243px;
+    float: left;
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -809px;
+}
+
+#info4{
+    /*position: absolute;*/
+    width: 640px;
+    height: 280px;
+    float: left;
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -1073px;
+}
+
+#info5{
+    /*position: absolute;*/
+    width: 640px;
+    height: 81px;
+    float: left;
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -1374px;
+}
+
+#info6{
+    /*position: absolute;*/
+    width: 640px;
+    height: 416px;
+    float: left;
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -1476px;
+}
+
+#info7{
+    /*position: absolute;*/
+    width: 640px;
+    height: 81px;
+    float: left;
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -1913px;
+}
+
+#info8{
+    /*position: absolute;*/
+    width: 640px;
+    height: 207px;
+    float: left;
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -2015px;
+}
+
+#info9{
+    /*position: absolute;*/
+    width: 640px;
+    height: 81px;
+    float: left;
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -2243px;
 }
