@@ -36,7 +36,7 @@ div{
     width: 640px;
     height: 2354px;
     margin: 0 auto;
-    background: rgb(204,205,205);
+    background: rgb(249,249,249);
 }
 
 .rightDiv{
@@ -73,24 +73,175 @@ div{
 
 
 #header2{
-    /*position: absolute;*/
+    position: relative;
     width: 640px;
     height: 91px;
     /*margin-top: 37px;*/
     /*display: block;*/
     background-position:0px -37px;
+    /*background: rgb(249,249,249);*/
+    text-align: center;
+    line-height: 91px;
+}
+
+.header2style{
+    height: 91px;
+    margin: 0 auto;
+    display:inline;
+    font-size: 30px;
+    color: rgb(32,159,255);
+    font-family: "Microsoft YaHei UI";
+    background-position:-2000px -10000px;
+}
+
+#header2back{
+    positon: absolute;
+    width: 54px;
+    height: 65px;
+    margin: 13px 0px 13px 25px;
+    float:left;
+    dispalay: block;
+    /*background-position:-25px -50px;*/
+}
+
+#header2btn1{
+    position: absolute;
+    width: 120px;
+    height: 65px;
+    margin: 13px 0px 13px 0px;
+    /*padding:0px;*/
+    /*float:left;*/
+    right: 116px;
+    /*background: white;*/
+}
+
+#header2btn2{
+    position: absolute;
+    width: 96px;
+    height: 65px;
+    margin: 13px 0px 13px 0px;
+    /*padding:0px;*/
+    /*top: 50%;*/
+    right: 14px;
+    /*float:left;*/
+    /*background: white;*/
+}
+
+#info1, #info3, #info4, #info5,
+#info6, #info7, #info8, #info9{
+    width: 640px;
+    float: left;
+    border-top: 1px solid rgb(221,221,221);
+    border-bottom: 1px solid rgb(221,221,221);
 }
 
 #info1{
      /*position: absolute;*/
-     width: 640px;
+     /*width: 640px;*/
      height: 533px;
-     float: left;
+     /*float: left;*/
      /*margin-top: 128px;*/
      /*margin: 0 auto;*/
      /*display: block;*/
      background-position:0px -128px;
  }
+
+.info1style{
+    width: 614px;
+    float: left;
+    margin-left: 26px;
+    /*border-top: 1px solid rgb(221,221,221);*/
+    border-bottom: 1px solid rgb(221,221,221);
+    background-position:-2000px -10000px;
+    /*background: white;*/
+}
+
+#info1div3, #info1div4, #info1div5{
+    height: 82px;
+}
+
+#info1div1{
+    height: 170px;
+    line-height:170px;
+    overflow:hidden;
+    /*margin-top: -1px;*/
+}
+
+#info1div1div1{
+    width:130px;
+    height:129px;
+    float:left;
+    margin: 20px 0 20px 0;
+    background-position:-2000px -10000px;
+}
+
+#info1div1div2{
+    width:483px;
+    height:129px;
+    float:left;
+    margin: 20px 0 20px 0;
+    background-position:-2000px -10000px;
+}
+
+#info1div1div1div1{
+    width:100%;
+    height:35%;
+    background-position:-2000px -10000px;
+}
+
+#info1div1div1div2{
+    width:100%;
+    height:35%;
+    background-position:-2000px -10000px;
+}
+
+#info1div1div1div3{
+    width:100%;
+    height:30%;
+    background-position:-2000px -10000px;
+}
+
+#info1div2{
+    height: 112px;
+    line-height:112px;
+    overflow:hidden;
+}
+
+#info1div2div1{
+    width:487px;
+    height:60px;
+    float:left;
+    margin: 26px 0 26px 0;
+    background-position:-2000px -10000px;
+}
+
+#info1div2div2{
+    width:127px;
+    height:60px;
+    float:left;
+    margin: 26px 0 26px 0;
+    background-position:-2000px -10000px;
+}
+
+#info1div3div1{
+    width:487px;
+    height:60px;
+    float:left;
+    margin: 11px 0 11px 0;
+    background-position:-2000px -10000px;
+}
+
+#info1div3div2{
+    width:127px;
+    height:60px;
+    float:left;
+    margin: 11px 0 11px 0;
+    background-position:-2000px -10000px;
+}
+
+#info1div5{
+    border-bottom: none;
+}
 
 #info2{
     /*position: absolute;*/
@@ -105,77 +256,77 @@ div{
 
 #info3{
     /*position: absolute;*/
-    width: 640px;
-    height: 243px;
-    float: left;
+    /*width: 640px;*/
+    height: 244px;
+    /*float: left;*/
     /*margin-top: 128px;*/
     /*margin: 0 auto;*/
     /*display: block;*/
-    background-position:0px -809px;
+    background-position:0px -808px;
 }
 
 #info4{
     /*position: absolute;*/
-    width: 640px;
-    height: 280px;
-    float: left;
+    /*width: 640px;*/
+    height: 281px;
+    /*float: left;*/
     /*margin-top: 128px;*/
     /*margin: 0 auto;*/
     /*display: block;*/
-    background-position:0px -1073px;
+    background-position:0px -1072px;
 }
 
 #info5{
     /*position: absolute;*/
-    width: 640px;
-    height: 81px;
-    float: left;
+    /*width: 640px;*/
+    height: 82px;
+    /*float: left;*/
     /*margin-top: 128px;*/
     /*margin: 0 auto;*/
     /*display: block;*/
-    background-position:0px -1374px;
+    background-position:0px -1373px;
 }
 
 #info6{
     /*position: absolute;*/
-    width: 640px;
-    height: 416px;
-    float: left;
+    /*width: 640px;*/
+    height: 417px;
+    /*float: left;*/
     /*margin-top: 128px;*/
     /*margin: 0 auto;*/
     /*display: block;*/
-    background-position:0px -1476px;
+    background-position:0px -1475px;
 }
 
 #info7{
     /*position: absolute;*/
-    width: 640px;
-    height: 81px;
-    float: left;
+    /*width: 640px;*/
+    height: 82px;
+    /*float: left;*/
     /*margin-top: 128px;*/
     /*margin: 0 auto;*/
     /*display: block;*/
-    background-position:0px -1913px;
+    background-position:0px -1912px;
 }
 
 #info8{
     /*position: absolute;*/
-    width: 640px;
-    height: 207px;
-    float: left;
+    /*width: 640px;*/
+    height: 208px;
+    /*float: left;*/
     /*margin-top: 128px;*/
     /*margin: 0 auto;*/
     /*display: block;*/
-    background-position:0px -2015px;
+    background-position:0px -2014px;
 }
 
 #info9{
     /*position: absolute;*/
-    width: 640px;
-    height: 81px;
-    float: left;
+    /*width: 640px;*/
+    height: 82px;
+    /*float: left;*/
     /*margin-top: 128px;*/
     /*margin: 0 auto;*/
     /*display: block;*/
-    background-position:0px -2243px;
+    background-position:0px -2242px;
 }
