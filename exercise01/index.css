@@ -12,7 +12,6 @@ body {
     width: 100%;
     height: 100%;
     background: grey;
-    clear:both;
 }
 
 div{
@@ -24,27 +23,11 @@ div{
     background-position:bottom right;
 }
 
-.leftDiv{
-    width: 30%;
-    height: 100%;
-    margin: 0px;
-    float: left;
-    background: gray;
-}
-
 .container{
     width: 640px;
     height: 2354px;
     margin: 0 auto;
     background: rgb(249,249,249);
-}
-
-.rightDiv{
-    width: 30%;
-    height: 100%;
-    margin: 0px;
-    float: left;
-    background: grey;
 }
 
 .spliter{
@@ -57,7 +40,7 @@ div{
     /*position: absolute;*/
     width: 640px;
     height: 128px;
-    float: left;
+    /*float: left;*/
     /*margin: 0 auto;*/
     /*display: block;*/
     /*background-position:100% 100%;*/
@@ -100,7 +83,6 @@ div{
     height: 65px;
     margin: 13px 0px 13px 25px;
     float:left;
-    dispalay: block;
     /*background-position:-25px -50px;*/
 }
 
