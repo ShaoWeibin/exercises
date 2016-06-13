@@ -1,0 +1,10 @@
+.icons{
+    background: url("img/sprite.png") no-repeat top left;
+    width: 24px;
+    height: 21px;
+}
+
+.icons.location-png{background-position: 0 -239px; width: 22px; height: 33px;}
+.icons.tel-png{background-position: 0 -283px; width: 31px; height: 31px;}
+.icons.book-png{background-position: 0 -283px; width: 31px; height: 31px;}
+.icons.takeout-png{background-position: 0 -283px; width: 31px; height: 31px;}

@@ -5,10 +5,6 @@
 /*}*/
 
 body {
-    font:normal 12px/1.6667 'Helvetica Neue', Arial, sans-serif;
-    margin:0;
-    padding:0;
-    position: absolute;
     width: 100%;
     height: 100%;
     background: grey;
@@ -18,9 +14,6 @@ div{
     margin: 0px;
     padding: 0px;
     display: block;
-    background-image: url(img/poi_info.png);
-    background-repeat: no-repeat;
-    background-position:bottom right;
 }
 
 .container{
@@ -30,200 +23,261 @@ div{
     background: rgb(249,249,249);
 }
 
+.container a.text{
+    color: rgb(32,159,255);
+}
+
+.high-light{
+    color: red;
+}
+
 .spliter{
     width: 640px;
     height: 25px;
     float: left;
 }
 
-#header{
-    /*position: absolute;*/
+/**
+ * 导航栏
+ */
+.header{
     width: 640px;
-    height: 128px;
-    /*float: left;*/
-    /*margin: 0 auto;*/
-    /*display: block;*/
-    /*background-position:100% 100%;*/
 }
 
-#header1{
-    /*position: absolute;*/
+.header .header1{
     width: 640px;
     height: 37px;
-    /*display: block;*/
     background-position:0px 0px;
 }
 
 
-#header2{
-    position: relative;
-    width: 640px;
+.header .header2{
+    /*width: 640px;*/
     height: 91px;
-    /*margin-top: 37px;*/
-    /*display: block;*/
-    background-position:0px -37px;
+    margin-left:26px;
+    padding: 20px 0;
     /*background: rgb(249,249,249);*/
-    text-align: center;
-    line-height: 91px;
 }
 
-.header2style{
-    height: 91px;
+.header .header2 .header2style{
     margin: 0 auto;
-    display:inline;
     font-size: 30px;
     color: rgb(32,159,255);
     font-family: "Microsoft YaHei UI";
-    background-position:-2000px -10000px;
 }
 
-#header2back{
-    positon: absolute;
+.header .header2 .header2back{
+    font-size: 65px;
+    vertical-align: middle;
     width: 54px;
-    height: 65px;
-    margin: 13px 0px 13px 25px;
     float:left;
-    /*background-position:-25px -50px;*/
 }
 
-#header2btn1{
-    position: absolute;
+.header .header2 .header2btn1{
+    /*position: absolute;*/
     width: 120px;
     height: 65px;
-    margin: 13px 0px 13px 0px;
-    /*padding:0px;*/
-    /*float:left;*/
+    margin: 13px 20px 13px 300px;
+    float:left;
     right: 116px;
-    /*background: white;*/
+    border: 1px solid rgb(200,200,200);
+    border-radius: 6px;
+    background: white;
 }
 
-#header2btn2{
-    position: absolute;
+.header .header2 .header2btn2{
+    /*position: absolute;*/
     width: 96px;
     height: 65px;
-    margin: 13px 0px 13px 0px;
-    /*padding:0px;*/
-    /*top: 50%;*/
-    right: 14px;
-    /*float:left;*/
-    /*background: white;*/
+    margin: 13px 20px 13px 0px;
+    float:right;
+    border: 1px solid rgb(200,200,200);
+    border-radius: 6px;
+    background: white;
 }
 
-#info1, #info3, #info4, #info5,
+#info1, #info2, #info3, #info4, #info5,
 #info6, #info7, #info8, #info9{
     width: 640px;
     float: left;
+    margin: 25px 0 0 0;
     border-top: 1px solid rgb(221,221,221);
     border-bottom: 1px solid rgb(221,221,221);
 }
 
-#info1{
-     /*position: absolute;*/
-     /*width: 640px;*/
-     height: 533px;
-     /*float: left;*/
-     /*margin-top: 128px;*/
-     /*margin: 0 auto;*/
-     /*display: block;*/
-     background-position:0px -128px;
+/**
+ * 基本信息
+ */
+.basic-info{
+    border-top: 1px solid rgb(221,221,221);
+    border-bottom: 1px solid rgb(221,221,221);
  }
 
-.info1style{
-    width: 614px;
-    float: left;
+.basic-info >div {
     margin-left: 26px;
-    /*border-top: 1px solid rgb(221,221,221);*/
     border-bottom: 1px solid rgb(221,221,221);
-    background-position:-2000px -10000px;
-    /*background: white;*/
+}
+
+.basic-info >div:last-child {
+    border-bottom: none;
 }
 
 #info1div3, #info1div4, #info1div5{
     height: 82px;
+    vertical-align: middle;
 }
 
-#info1div1{
-    height: 170px;
-    line-height:170px;
-    overflow:hidden;
-    /*margin-top: -1px;*/
+.basic-info .basic-info-describe{
+    display: flex;
+    padding: 20px 26px 20px 0;
 }
 
-#info1div1div1{
+.basic-info .describe-pic{
     width:130px;
-    height:129px;
+    height:130px;
     float:left;
-    margin: 20px 0 20px 0;
     background-position:-2000px -10000px;
 }
 
-#info1div1div2{
-    width:483px;
-    height:129px;
-    float:left;
-    margin: 20px 0 20px 0;
-    background-position:-2000px -10000px;
+.basic-info .describe-name > div{
+    margin-left:20px;
+    padding: 3px 0;
+    font-size: 30px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
 }
 
-#info1div1div1div1{
-    width:100%;
-    height:35%;
-    background-position:-2000px -10000px;
+.basic-info .describe-name > div small{
+    color: gray;
 }
 
-#info1div1div1div2{
-    width:100%;
-    height:35%;
-    background-position:-2000px -10000px;
+.basic-info .describe-name .star-grade{
+    background: url("img/love.png") 0 18px;
+    width: 100px;
+    height: 18px;
+    display: inline-block;
 }
 
-#info1div1div1div3{
-    width:100%;
-    height:30%;
-    background-position:-2000px -10000px;
+span.star-grade-red{
+    background: url("img/love.png") 0 0;
+    width: 90px;
+    height: 18px;
+    position: absolute;
 }
 
-#info1div2{
-    height: 112px;
-    line-height:112px;
-    overflow:hidden;
+.basic-info .describe-name .per-customer{
+    color: red;
 }
 
-#info1div2div1{
-    width:487px;
-    height:60px;
-    float:left;
-    margin: 26px 0 26px 0;
-    background-position:-2000px -10000px;
+.basic-info .basic-info-other{
+    padding: 20px 26px 20px 0;
 }
 
-#info1div2div2{
-    width:127px;
-    height:60px;
-    float:left;
-    margin: 26px 0 26px 0;
-    background-position:-2000px -10000px;
-}
-
-#info1div3div1{
-    width:487px;
-    height:60px;
-    float:left;
-    margin: 11px 0 11px 0;
-    background-position:-2000px -10000px;
-}
-
-#info1div3div2{
-    width:127px;
-    height:60px;
-    float:left;
-    margin: 11px 0 11px 0;
-    background-position:-2000px -10000px;
-}
-
-#info1div5{
+.basic-info .basic-info-others >div:last-child{
     border-bottom: none;
 }
+
+.basic-info .basic-info-details{
+    display: flex;
+    border-bottom: 1px solid rgb(221,221,221);
+    padding: 20px 0px;
+}
+
+.basic-info-details >div:first-child{
+    width: 50px;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.basic-info-details >div:nth-child(2){
+    width: 370px;
+    margin-right: 50px;
+}
+
+.basic-info-details >div:last-child{
+    width: 80px;
+    margin: auto;
+    margin-right: 20px;
+    text-align: right;
+    border-bottom: none;
+}
+
+.basic-info .basic-info-others .basic-info-details span{
+    font-size: 25px;
+    font-family: "Microsoft YaHei";
+}
+
+.basic-info .basic-info-others .book span{
+    font-size: 30px;
+}
+
+.basic-info .basic-info-others .takeout span{
+    font-size: 30px;
+}
+
+.container .tag {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.basic-info .basic-info-others .book-tag span{
+    font-size: 22px;
+}
+
+.basic-info .basic-info-others .takeout-tag span{
+    font-size: 22px;
+}
+
+.container .tag-book{
+    background-color: rgb(255, 69, 70);
+}
+
+.container .tag-takeout{
+    background-color: rgb(255, 165, 0);
+}
+
+/**
+ * 基本信息
+ */
+
+/**
+ * 团购信息
+ */
+
+/**
+ * 本店推荐菜
+ */
+
+/**
+ * 用户评论
+ */
+
+/**
+ * 搜索
+ */
+
+/**
+ * 营业信息
+ */
+
+/**
+ * 地图
+ */
+
+/**
+ * 附件
+ */
+
+/**
+ * 此地微博
+ */
 
 #info2{
     /*position: absolute;*/

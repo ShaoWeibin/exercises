@@ -4,60 +4,81 @@
     <meta charset="UTF-8">
     <title>Exercise01</title>
     <LINK rel="stylesheet" href="index.css" type="text/css">
+    <LINK rel="stylesheet" href="icons.css" type="text/css">
 </head>
-<body id="widget">
-    <div id="container" class="container">
-        <div id="header">
-            <div id="header1"></div>
-            <div id="header2">
-                <div id="header2back" class="header2style"></div>
-                <div id="header2btn1" class="header2style"></div>
-                <div id="header2btn2" class="header2style"></div>
+<body class="widget">
+    <div class="container">
+        <!--导航栏-->
+        <div class="header">
+            <div class="header1"></div>
+            <div class="header2">
+                <div class="header2style header2back"><span><</span></div>
+                <button class="header2style header2btn1">搜周边</button>
+                <button class="header2style header2btn2">地图</button>
             </div>
         </div>
-        <div id="info1">
-            <div id="info1div1" class="info1style">
-                <div id="info1div1div1"></div>
-                <div id="info1div1div2">
-                    <div id="info1div1div1div1"></div>
-                    <div id="info1div1div1div2"></div>
-                    <div id="info1div1div1div3"></div>
+        <!--基本信息-->
+        <div class="basic-info">
+            <div class="basic-info-describe">
+                <div class="describe-pic"><img src="img/basic_info_001.png"/></div>
+                <div class="describe-name">
+                    <div>
+                        <span>海底捞火锅店<small>(望京店)</small></span>
+                    </div>
+                    <div>
+                        <span class="star-grade">
+                            <span class="star-grade-red"></span>
+                        </span>
+                        <span class="per-customer high-light"><small>人均:￥134</small></span>
+                    </div>
+                    <div><span><small>火锅</small></span></div>
                 </div>
             </div>
-            <div id="info1div2" class="info1style">
-                <div id="info1div2div1"></div>
-                <div id="info1div2div2"></div>
-            </div>
-            <div id="info1div3" class="info1style">
-                <div id="info1div3div1"></div>
-                <div id="info1div3div2"></div>
-            </div>
-            <div id="info1div4" class="info1style">
-
-            </div>
-            <div id="info1div5" class="info1style">
-
+            <div class="basic-info-others">
+                <!--位置信息-->
+                <div class="basic-info-details location">
+                    <div class="icons location-png"></div>
+                    <div>
+                        <span>工人体育场北路与工人体育场西路交叉口</span>
+                    </div>
+                    <div><a class="text" herf="ditu.amap.com"><span>去这里</span></a></div>
+                </div>
+                <!--电话号码-->
+                <div class="basic-info-details tel">
+                    <div class="icons tel-png"></div>
+                    <div><span>010-64984465</span></div>
+                    <div><a class="text" herf="ditu.amap.com"><span>打电话</span></a></div>
+                </div>
+                <div class="basic-info-details book">
+                    <div class="book-tag"><span class="tag tag-book">订</span></div>
+                    <div><span>在线订座</span></div>
+                    <div><a class="text" herf="ditu.amap.com"><span>></span></a></div>
+                </div>
+                <div class="basic-info-details takeout">
+                    <div class="takeout-tag"><span class="tag tag-takeout">外</span></div>
+                    <div><span>外卖</span></div>
+                    <div><a class="text" herf="ditu.amap.com"><span>></span></a></div>
+                </div>
             </div>
         </div>
-        <div class="spliter"></div>
+        <!--团购信息-->
         <div id="info2">
 
         </div>
-        <div class="spliter"></div>
+        <!--本店推荐菜-->
         <div id="info3"></div>
-        <div class="spliter"></div>
+        <!--用户评论-->
         <div id="info4"></div>
-        <div class="spliter"></div>
+        <!--搜索-->
         <div id="info5"></div>
-        <div class="spliter"></div>
+        <!--营业信息-->
         <div id="info6"></div>
-        <div class="spliter"></div>
+        <!--地图-->
         <div id="info7"></div>
-        <div class="spliter"></div>
+        <!--附件-->
         <div id="info8"></div>
-        <div class="spliter"></div>
+        <!--此地微博-->
         <div id="info9"></div>
-        <div class="spliter"></div>
     </div>
 </body>
 </html>
