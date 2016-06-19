@@ -50,6 +50,11 @@ header .masthead{
     display: inline-block;
 }
 
+header .header-side{
+    margin: auto;
+    margin-right: 0;
+}
+
 header .logo .logo-img{
     width: 37px;
     height: 31px;
@@ -84,8 +89,8 @@ header li:hover{
 
 header .header-search{
     margin: auto;
-    margin-left: 70px;
     border-radius: 20px;
+    width: 150px;
     height: 30px;
     color: gray;
     font-size: .9rem;
@@ -96,13 +101,13 @@ header .header-search{
 header .hearder-name{
     font-size: 25px;
     color: white;
-    margin: auto 20px;
+    margin: auto;
+    margin-left: 20px;
 }
 
-header .hearder-name >small{
-    position: absolute;
+header .hearder-name >sup{
     font-size: 15px;
-    margin: 0 0 auto 10px;
+    margin: 4px 0 auto 10px;
     width: 30px;
     background: white;
     color: rgb(144,175,77);
