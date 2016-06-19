@@ -16,6 +16,11 @@ body {
     /*background: white;*/
 /*}*/
 
+.page{
+    width: 1333px;
+    margin: 0 auto;
+}
+
 .page .bolder{
     font-weight: bolder;
 }
