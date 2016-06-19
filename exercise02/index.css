@@ -1,0 +1,316 @@
+/**
+ * Add by weibin.shao 2016/6/18
+ */
+
+body {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    background: grey;
+    font-family: "Microsoft YaHei UI";
+}
+
+/*div{*/
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+    /*display: block;*/
+    /*background: white;*/
+/*}*/
+
+.page .bolder{
+    font-weight: bolder;
+}
+
+.page .gray-font{
+    color: rgb(200,200,200);
+}
+
+.page .gray-bk{
+    background: rgb(240,240,240);
+}
+
+.page small{
+    font-size: 70%;
+}
+
+/**
+ * header
+ */
+header{
+    background: rgb(144,175,77);
+    display: flex;
+    padding: 0 130px;
+}
+
+header div{
+    margin: auto 0;
+    display: flex;
+}
+
+header .masthead{
+    display: inline-block;
+}
+
+header p{
+    margin: auto 0;
+    display: inline-block;
+}
+
+header p img{
+    margin: auto;
+    vertical-align: middle;
+}
+
+header a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+header ul{
+    margin: 0;
+}
+
+header li{
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+header li a{
+    font-size: 25px;
+}
+
+header li:hover{
+    background: rgb(129,157,69);
+}
+
+header .header-search{
+    margin: auto;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 30px;
+    color: gray;
+    font-size: .9rem;
+    text-align: center;
+    border: none;
+}
+
+header .hearder-name{
+    font-size: 25px;
+    color: white;
+    margin: auto 20px;
+}
+
+header .hearder-name >small{
+    position: absolute;
+    font-size: 15px;
+    margin: 0 0 auto 10px;
+    width: 30px;
+    background: white;
+    color: rgb(144,175,77);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.container{
+    padding: 0 130px;
+}
+
+.clearfix:before,
+.clearfix:after{
+    display: table;
+    content: " ";
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/**
+ * main
+ */
+main{
+    float: left;
+    width: 650px;
+    background: white;
+}
+
+main div{
+    margin: auto 0;
+}
+
+main .main-header{
+    display: flex;
+    margin: 40px auto;
+}
+
+.main-header span{
+    margin: 0;
+    font-size: 22px;
+    color: rgb(120,120,120);
+}
+
+main .main-btn{
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    font-family: "Microsoft YaHei UI";
+    background: rgb(144,175,77);
+    color: white;
+    margin: 0;
+}
+
+main .main-btn-about{
+    color: black;
+}
+
+main .main-header >div:nth-child(2){
+    margin: auto;
+    margin-right: 0;
+}
+
+main .main-header >div:last-child{
+    margin:auto 0 auto 10px;
+}
+
+main .main-discovery-header{
+    display: flex;
+}
+
+main .main-discovery-header >div{
+    /*display: inline;*/
+    /*width: 200px;*/
+}
+
+main .main-discovery-header >div:nth-child(2){
+    /*float: right;*/
+    margin: auto 10px;
+    width: 400px;
+}
+
+main .main-discovery-header >div:nth-child(2) hr{
+    background: rgb(200,200,200);
+    height: 1px;
+    border: none;
+}
+
+main .main-discovery-header >div:nth-child(3){
+    margin: auto;
+    margin-right: 0;
+}
+
+main .main-discovery-header >div:last-child{
+    margin: auto;
+    margin-right: 0;
+}
+
+main .main-btn-hot{
+    border-radius: 3px;
+    width: 50px;
+    height: 25px;
+    font-size: 16px;
+    /*background: rgb(240,240,240);*/
+    color: rgb(120,120,120);
+}
+
+main .main-discovery-list{
+    margin: 0;
+    padding: 0;
+}
+
+main .main-discovery-article-like,
+main .main-discovery-article-answers{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /*height: 100px;*/
+    border-bottom: 1px solid rgb(221,221,221);
+    font-size: 17px;
+}
+
+main .main-discovery-article-like .article-like,
+main .main-discovery-article-answers .article-answers{
+    width: 50px;
+    padding: 15px 5px;
+    text-align: center;
+    color: rgb(120,120,120);
+}
+
+main .main-discovery-article-answers .article-answers{
+    color: rgb(144,175,77);
+}
+
+main .main-discovery-article-like .article-views,
+main .main-discovery-article-answers .article-views{
+    width: 50px;
+    padding: 15px 5px;
+    text-align: center;
+}
+
+main .main-discovery-article-like .article-title,
+main .main-discovery-article-answers .article-title{
+    width: 500px;
+    padding: 5px;
+}
+
+main .main-discovery-article-like .article-title >div:nth-child(2),
+main .main-discovery-article-answers .article-title >div:nth-child(2){
+    display: block;
+    margin: 5px auto;
+}
+
+main .main-discovery-article-answers .article-title >div:last-child small{
+    display: inline-block;
+    background: rgb(240,240,240);
+    border-radius: 8px;
+    margin: 0 5px 0 0;
+    padding: 2px 8px;
+}
+
+main .main-more{
+    display: flex;
+}
+
+main .main-more div{
+    margin: 25px auto;
+    width: 100%;
+    height: 50px;
+}
+
+main .main-more button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    font-family: "Microsoft YaHei UI";
+    margin: 0;
+    color: rgb(120,120,120);
+}
+
+/**
+ * sidebar
+ */
+.sidebar{
+    float: right;
+    width: 300px;
+    height: 1000px;
+    background: greenyellow;
+}
+
+/**
+ * footer
+ */
+.footer{
+    border-top: 1px solid gainsboro;
+    /*display: flex;*/
+    padding: 20px 130px;
+}
+
+.footer a{
+    text-decoration: none;
+}
