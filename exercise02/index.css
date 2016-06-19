@@ -302,7 +302,6 @@ main .main-more button{
 .sidebar{
     float: right;
     width: 300px;
-    height: 1000px;
     background: white;
 }
 
@@ -325,7 +324,7 @@ main .main-more button{
     width: 80px;
     height: 80px;
     border-radius: 40px;
-    background: url("img/persional-img.jpg");
+    background: url("img/personal-img.jpg");
 }
 
 .sidebar .personal-fans{
@@ -417,7 +416,57 @@ main .main-more button{
     padding: 2px 5px;
 }
 
-/*.sidebar .sidebar-article-title >div:first-child*/
+.sidebar .sidebar-attention{
+    width: 100%;
+    border-top: 1px solid rgb(200,200,200);
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+.sidebar .attention-title{
+    display: flex;
+    margin: 20px 0;
+
+}
+
+.sidebar .attention-title >div:last-child{
+    margin: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+.sidebar .attention-info{
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.sidebar .attention-info >div:first-child{
+    margin: 0 20px 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: url("img/personal-img-mini.jpg");
+}
+
+.sidebar .attention-info >div:last-child{
+    margin: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+.sidebar .attention-info >div:last-child button{
+    width: 100px;
+    height: 28px;
+    border: 1px solid rgb(210,210,210);
+    border-radius: 14px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei UI";
+    margin: 0;
+    background: none;
+    color: gray;
+}
 
 /**
  * footer
