@@ -73,7 +73,7 @@ function appendLike(likes) {
         .attr('class', 'bolder')
         .append('small')
         .text(function(d){
-            return 'likes';
+            return 'like';
         });
 
     var $enter2 = $enter.append('div').attr('class', 'article-views gray-font');
@@ -130,7 +130,7 @@ function appendAnswer(answers) {
         .attr('class', 'bolder')
         .append('small')
         .text(function(d){
-            return 'likes';
+            return 'answers';
         });
 
     var $enter2 = $enter.append('div').attr('class', 'article-views gray-font');
