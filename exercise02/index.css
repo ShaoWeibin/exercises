@@ -248,7 +248,7 @@ main .main-discovery-article-answers{
 
 main .main-discovery-article-like .article-like,
 main .main-discovery-article-answers .article-answers{
-    width: 50px;
+    width: 60px;
     padding: 15px 5px;
     text-align: center;
     color: rgb(120,120,120);
@@ -260,7 +260,7 @@ main .main-discovery-article-answers .article-answers{
 
 main .main-discovery-article-like .article-views,
 main .main-discovery-article-answers .article-views{
-    width: 50px;
+    width: 60px;
     padding: 15px 5px;
     text-align: center;
 }

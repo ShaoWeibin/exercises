@@ -28,23 +28,17 @@
     dataset.push(like);
     dataset.push(answer);
     dataset.push(like);
-    // dataset.push(answer);
-    // dataset.push(like);
-    // dataset.push(answer);
-    // dataset.push(like);
-    // dataset.push(answer);
+    dataset.push(answer);
+    dataset.push(like);
+    dataset.push(answer);
+    dataset.push(like);
+    dataset.push(answer);
 
     dataset.forEach(function (d, i) {
-        var set = [];
-
-        var n = (i % 2 == 1) ? i + 1 : i + 2;
-        for (var j = 0; j < i + 1; ++j)
-            set.push(d);
-
         if (d instanceof Like)
-            appendLike(set);
+            appendLike(d);
         else if (d instanceof Answer)
-            appendAnswer(set);
+            appendAnswer(d);
         else ;  // do nothing;
     });
 
@@ -52,11 +46,14 @@
     attentionlist();
 })();
 
-function appendLike(likes) {
+function appendLike(like) {
     var $list = d3.select(".main-discovery-list");
-    var $items = $list.selectAll('.main-discovery-article-like').data(likes);
+    // var $items = $list.selectAll('.main-discovery-article-like').data(likes);
 
-    var $enter = $items.enter().append('div')
+    // var $enter = $items.enter().append('div')
+    //     .attr('class', 'main-discovery-article-like');
+
+    var $enter = $list.append('div').datum(like)
         .attr('class', 'main-discovery-article-like');
 
     var $enter1 = $enter.append('div').attr('class', 'article-like');
@@ -109,11 +106,14 @@ function appendLike(likes) {
         });
 }
 
-function appendAnswer(answers) {
+function appendAnswer(answer) {
     var $list = d3.select(".main-discovery-list");
-    var $items = $list.selectAll('.main-discovery-article-answers').data(answers);
+    // var $items = $list.selectAll('.main-discovery-article-answers').data(answers);
 
-    var $enter = $items.enter().append('div')
+    // var $enter = $items.enter().append('div')
+    //     .attr('class', 'main-discovery-article-answers');
+
+    var $enter = $list.append('div').datum(answer)
         .attr('class', 'main-discovery-article-answers');
 
     var $enter1 = $enter.append('div').attr('class', 'article-answers');
