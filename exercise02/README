@@ -1,1 +1,6 @@
 exercise02
+1. main .main-discovery-header >div:nth-child(2) hr 这个地方用hr不合适，尽量不用仅为样式而存在的标签，用css来实现；同时nth-child这种少用一些，当标签发生变化时不好处理，页面里还有别的地方是不该用伪类的
+2.注意一下语义化标签，全都用div不好
+3. .sidebar .personal-img头像不应该用背景图，这种属于变化数据，该用img标签
+4. .page .green-font这种纯样式命名的class在日后页面样式调整时会很别扭，文字颜色如果不是绿色了明明不需要改html却不得不改
+5. .sidebar .personal-info div这里的布局方式有问题，如果文字长了会把查看链接折行

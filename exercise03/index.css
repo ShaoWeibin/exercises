@@ -204,7 +204,6 @@ main .main-discovery-header >div:nth-child(2){
     /*float: right;*/
     margin: auto 10px;
     width: 400px;
-    border-bottom: 1px solid rgb(200,200,200);
 }
 
 main .main-discovery-header >div:nth-child(2) hr{
@@ -355,16 +354,9 @@ main .main-more button{
     font-size: 15px;
 }
 
-.sidebar .personal-at >div:first-child{
-    margin: auto;
-    width: 80%;
-    text-align: left;
-}
-
 .sidebar .personal-at >div:last-child{
     margin: auto;
     margin-right: 0;
-    width: 20%;
     text-align: right;
 }
 
