@@ -4,7 +4,7 @@
 
 body {
     /*background: grey;*/
-    font-family: "Microsoft YaHei UI";
+    font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", "Microsoft YaHei UI";
 }
 
 .page{
@@ -146,13 +146,82 @@ header .hearder-name >sup{
  * main
  */
 main{
-    float: left;
+    margin: 0 auto;
     width: 650px;
     background: white;
 }
 
 main div{
     margin: auto 0;
+}
+
+main .personal-info{
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+main .personal-info div{
+    text-align: center;
+}
+
+main .personal-img{
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}
+
+main .personal-img img{
+    border-radius: 40px;
+}
+
+main .personal-info-edit{
+    float: right;
+}
+
+main .personal-info-edit div{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: auto 5px auto 0;
+    background: url(img/edit.png);
+}
+
+main .person-info-name h1{
+    font-size: 32px;
+    font-weight: normal;
+    margin: 20px auto 10px auto;
+}
+
+main .person-info-name h4{
+    margin: 0px auto;
+}
+
+main .person-info-name p{
+    font-size: 15px;
+}
+
+main .personal-fans{
+    display: flex;
+    font-size: 18px;
+    margin: 30px auto 10px auto;
+    padding: 0 auto;
+}
+
+main .personal-fans div{
+    width: 33%;
+    text-align: center;
+    padding: 0 70px;
+    border-right: 1px solid rgb(200,200,200);
+}
+
+main .personal-fans >div:last-child{
+    border-right: none;
+}
+
+main .personal-fans p{
+    margin: 0 auto;
 }
 
 main .main-header{
@@ -179,8 +248,8 @@ main .main-btn{
 }
 
 main .main-btn-about{
-    color: black;
-}
+     color: black;
+ }
 
 main .main-header >div:nth-child(2){
     margin: auto;
@@ -193,42 +262,23 @@ main .main-header >div:last-child{
 
 main .main-discovery-header{
     display: flex;
+    background: rgb(240,240,240);
 }
 
-main .main-discovery-header >div{
-    /*display: inline;*/
-    /*width: 200px;*/
-}
-
-main .main-discovery-header >div:nth-child(2){
-    /*float: right;*/
-    margin: auto 10px;
-    width: 400px;
-}
-
-main .main-discovery-header >div:nth-child(2) hr{
-    background: rgb(200,200,200);
-    height: 1px;
-    border: none;
-}
-
-main .main-discovery-header >div:nth-child(3){
-    margin: auto;
-    margin-right: 0;
-}
-
-main .main-discovery-header >div:last-child{
-    margin: auto;
-    margin-right: 0;
-}
-
-main .main-btn-hot{
-    border-radius: 3px;
-    width: 50px;
-    height: 25px;
+main .main-discovery-header li{
+    display: inline-block;
+    padding: 15px 20px;
+    font-weight: bolder;
     font-size: 16px;
-    /*background: rgb(240,240,240);*/
-    color: rgb(120,120,120);
+}
+
+main .main-discovery-header li:hover{
+    background: rgb(200,200,200);
+}
+
+main .main-discovery-header li span{
+    font-weight: normal;
+    color: rgb(160,160,160);
 }
 
 main .main-discovery-list{
@@ -305,177 +355,184 @@ main .main-more button{
     color: rgb(120,120,120);
 }
 
-/**
- * sidebar
- */
-.sidebar{
-    float: right;
-    width: 300px;
-    background: white;
-}
+/*!***/
+ /** sidebar*/
+ /**!*/
+/*.sidebar{*/
+    /*float: right;*/
+    /*width: 300px;*/
+    /*background: white;*/
+/*}*/
 
-.sidebar .personal-info{
-    width: 100%;
-    margin-top: 10px;
-    padding: 20px;
-    border-radius: 5px;
-    border: 1px solid rgb(200,200,200);
-    box-sizing: border-box;
-    /*box-shadow:5px 5px 5px 5px rgb(200,200,200);*/
-}
+/*.sidebar .personal-info{*/
+    /*width: 100%;*/
+    /*margin-top: 10px;*/
+    /*padding: 20px;*/
+    /*border-radius: 5px;*/
+    /*border: 1px solid rgb(200,200,200);*/
+    /*box-sizing: border-box;*/
+    /*!*box-shadow:5px 5px 5px 5px rgb(200,200,200);*!*/
+/*}*/
 
-.sidebar .personal-info div{
-    text-align: center;
-}
+/*.sidebar .personal-info div{*/
+    /*text-align: center;*/
+/*}*/
 
-.sidebar .personal-img{
-    margin: 0 auto;
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
-    background: url("img/personal-img.jpg");
-}
+/*.sidebar .personal-img{*/
+    /*margin: 0 auto;*/
+    /*width: 80px;*/
+    /*height: 80px;*/
+    /*border-radius: 40px;*/
+    /*background: url("img/personal-img.jpg");*/
+/*}*/
 
-.sidebar .personal-fans{
-    display: flex;
-    font-size: 18px;
-    margin: 20px;
-}
+/*.sidebar .personal-fans{*/
+    /*display: flex;*/
+    /*font-size: 18px;*/
+    /*margin: 20px;*/
+/*}*/
 
-.sidebar .personal-fans div{
-    text-align: center;
-    padding: 0px 10px;
-}
+/*.sidebar .personal-fans div{*/
+    /*text-align: center;*/
+    /*padding: 0px 10px;*/
+/*}*/
 
-.sidebar .personal-at{
-    display: flex;
-    margin: 10px 5px;
-    color: rgb(120,120,120);
-    font-size: 15px;
-}
+/*.sidebar .personal-at{*/
+    /*display: flex;*/
+    /*margin: 10px 5px;*/
+    /*color: rgb(120,120,120);*/
+    /*font-size: 15px;*/
+/*}*/
 
-.sidebar .personal-at >div:last-child{
-    margin: auto;
-    margin-right: 0;
-    text-align: right;
-}
+/*.sidebar .personal-at >div:first-child{*/
+    /*margin: auto;*/
+    /*width: 80%;*/
+    /*text-align: left;*/
+/*}*/
 
-.sidebar .personal-more{
-    margin: 20px 0;
-    width: 100%;
-    height: 35px;
-}
+/*.sidebar .personal-at >div:last-child{*/
+    /*margin: auto;*/
+    /*margin-right: 0;*/
+    /*width: 20%;*/
+    /*text-align: right;*/
+/*}*/
 
-.sidebar .personal-more button{
-    width: 100%;
-    height: 35px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-family: "Microsoft YaHei UI";
-    margin: 0;
-    color: rgb(120,120,120);
-}
+/*.sidebar .personal-more{*/
+    /*margin: 20px 0;*/
+    /*width: 100%;*/
+    /*height: 35px;*/
+/*}*/
 
-.sidebar .personal-edit{
-    display: flex;
-    margin: 0 5px;
-    padding-left: 60px;
-    font-size: 15px;
-}
+/*.sidebar .personal-more button{*/
+    /*width: 100%;*/
+    /*height: 35px;*/
+    /*border: none;*/
+    /*border-radius: 5px;*/
+    /*font-size: 16px;*/
+    /*font-family: "Microsoft YaHei UI";*/
+    /*margin: 0;*/
+    /*color: rgb(120,120,120);*/
+/*}*/
 
-.sidebar .personal-edit div{
-    margin: auto;
-    margin-right: 0;
-}
+/*.sidebar .personal-edit{*/
+    /*display: flex;*/
+    /*margin: 0 5px;*/
+    /*padding-left: 60px;*/
+    /*font-size: 15px;*/
+/*}*/
 
-.sidebar .article-top{
-    width: 100%;
-    margin-top: 10px;
-}
+/*.sidebar .personal-edit div{*/
+    /*margin: auto;*/
+    /*margin-right: 0;*/
+/*}*/
 
-.sidebar .sidebar-article-title{
-    display: flex;
-    margin-bottom: 20px;
-}
+/*.sidebar .article-top{*/
+    /*width: 100%;*/
+    /*margin-top: 10px;*/
+/*}*/
 
-.sidebar .sidebar-article-title div{
-    margin: auto;
-    font-size: 15px;
-    color: rgb(120,120,120);
-}
+/*.sidebar .sidebar-article-title{*/
+    /*display: flex;*/
+    /*margin-bottom: 20px;*/
+/*}*/
 
-.sidebar .sidebar-article-title >div:first-child span{
-    display: inline-block;
-    background: rgb(240,240,240);
-    margin: auto;
-    margin-right: 20px;
-    width:30px;
-    height:30px;
-    line-height: 30px;
-    border-radius: 15px;
-    text-align: center;
-}
+/*.sidebar .sidebar-article-title div{*/
+    /*margin: auto;*/
+    /*font-size: 15px;*/
+    /*color: rgb(120,120,120);*/
+/*}*/
 
-.sidebar .sidebar-article-title >div:last-child small{
-    display: inline-block;
-    background: rgb(240,240,240);
-    border-radius: 3px;
-    margin-left: 5px;
-    padding: 2px 5px;
-}
+/*.sidebar .sidebar-article-title >div:first-child span{*/
+    /*display: inline-block;*/
+    /*background: rgb(240,240,240);*/
+    /*margin: auto;*/
+    /*margin-right: 20px;*/
+    /*width:30px;*/
+    /*height:30px;*/
+    /*line-height: 30px;*/
+    /*border-radius: 15px;*/
+    /*text-align: center;*/
+/*}*/
 
-.sidebar .sidebar-attention{
-    width: 100%;
-    border-top: 1px solid rgb(200,200,200);
-    border-bottom: 1px solid rgb(200,200,200);
-}
+/*.sidebar .sidebar-article-title >div:last-child small{*/
+    /*display: inline-block;*/
+    /*background: rgb(240,240,240);*/
+    /*border-radius: 3px;*/
+    /*margin-left: 5px;*/
+    /*padding: 2px 5px;*/
+/*}*/
 
-.sidebar .attention-title{
-    display: flex;
-    margin: 20px 0;
+/*.sidebar .sidebar-attention{*/
+    /*width: 100%;*/
+    /*border-top: 1px solid rgb(200,200,200);*/
+    /*border-bottom: 1px solid rgb(200,200,200);*/
+/*}*/
 
-}
+/*.sidebar .attention-title{*/
+    /*display: flex;*/
+    /*margin: 20px 0;*/
 
-.sidebar .attention-title >div:last-child{
-    margin: auto;
-    margin-right: 0;
-    text-align: right;
-}
+/*}*/
 
-.sidebar .attention-info{
-    display: flex;
-    width: 100%;
-    font-size: 14px;
-    margin: 0;
-    margin-bottom: 20px;
-}
+/*.sidebar .attention-title >div:last-child{*/
+    /*margin: auto;*/
+    /*margin-right: 0;*/
+    /*text-align: right;*/
+/*}*/
 
-.sidebar .attention-info >div:first-child{
-    margin: 0 20px 0 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background: url("img/personal-img-mini.jpg");
-}
+/*.sidebar .attention-info{*/
+    /*display: flex;*/
+    /*width: 100%;*/
+    /*font-size: 14px;*/
+    /*margin: 0;*/
+    /*margin-bottom: 20px;*/
+/*}*/
 
-.sidebar .attention-info >div:last-child{
-    margin: auto;
-    margin-right: 0;
-    text-align: right;
-}
+/*.sidebar .attention-info >div:first-child{*/
+    /*margin: 0 20px 0 0;*/
+    /*width: 40px;*/
+    /*height: 40px;*/
+    /*border-radius: 20px;*/
+    /*background: url("img/personal-img-mini.jpg");*/
+/*}*/
 
-.sidebar .attention-info >div:last-child button{
-    width: 100px;
-    height: 28px;
-    border: 1px solid rgb(210,210,210);
-    border-radius: 14px;
-    font-size: 14px;
-    font-family: "Microsoft YaHei UI";
-    margin: 0;
-    background: none;
-    color: gray;
-}
+/*.sidebar .attention-info >div:last-child{*/
+    /*margin: auto;*/
+    /*margin-right: 0;*/
+    /*text-align: right;*/
+/*}*/
+
+/*.sidebar .attention-info >div:last-child button{*/
+    /*width: 100px;*/
+    /*height: 28px;*/
+    /*border: 1px solid rgb(210,210,210);*/
+    /*border-radius: 14px;*/
+    /*font-size: 14px;*/
+    /*font-family: "Microsoft YaHei UI";*/
+    /*margin: 0;*/
+    /*background: none;*/
+    /*color: gray;*/
+/*}*/
 
 /**
  * footer
