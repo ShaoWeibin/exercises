@@ -1,0 +1,355 @@
+/*#widget {*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+
+body {
+    height: 100%;
+    background: grey;
+}
+
+.container{
+    width: 640px;
+    margin: 0 auto;
+    background: rgb(249,249,249);
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.container a.text{
+    color: rgb(32,159,255);
+}
+
+.high-light{
+    color: red;
+}
+
+/**
+ * 基本信息
+ */
+.basic-header{
+    height: 225px;
+    background: rgb(0,145,255);
+}
+
+.basic-name{
+    /*margin-top: 40px;*/
+    margin-left:30px;
+    padding: 3px 0;
+    font-size: 35px;
+    color: white;
+    font-family: "Microsoft YaHei";
+    font-weight: 100;
+}
+
+.basic-name .star-grade{
+    background: url("img/love.png") 0 18px;
+    width: 100px;
+    height: 18px;
+    display: inline-block;
+}
+
+span.star-grade-red{
+    background: url("img/love.png") 0 0;
+    width: 90px;
+    height: 18px;
+    position: absolute;
+}
+
+.basic-name .per-customer{
+    color: red;
+}
+
+.basic-div{
+    display: flex;
+    border-bottom: 1px solid rgb(221,221,221);
+    padding: 20px 0px;
+}
+
+.basic-div >div:first-child{
+    width: 50px;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.basic-div >div:nth-child(2){
+    width: 370px;
+    margin-right: 50px;
+}
+
+.basic-div >div:last-child{
+    width: 80px;
+    margin: auto;
+    margin-right: 20px;
+    text-align: right;
+    border-bottom: none;
+    /*border-left: 1px solid rgb(221,221,221);*/
+}
+
+.basic-div span{
+    font-size: 25px;
+    font-family: "Microsoft YaHei";
+}
+
+.basic-info{
+    border-top: 1px solid rgb(221,221,221);
+    border-bottom: 1px solid rgb(221,221,221);
+ }
+
+.basic-info >div {
+    margin-left: 26px;
+    border-bottom: 1px solid rgb(221,221,221);
+}
+
+.basic-info >div:last-child {
+    border-bottom: none;
+}
+
+#info1div3, #info1div4, #info1div5{
+    height: 82px;
+    vertical-align: middle;
+}
+
+.basic-info .basic-info-describe{
+    display: flex;
+    padding: 20px 26px 20px 0;
+}
+
+.basic-info .describe-pic{
+    width:130px;
+    height:130px;
+    float:left;
+    background-position:-2000px -10000px;
+}
+
+.basic-info .describe-name > div{
+    margin-left:20px;
+    padding: 3px 0;
+    font-size: 30px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+}
+
+.basic-info .describe-name > div small{
+    color: gray;
+}
+
+.basic-info .describe-name .star-grade{
+    background: url("img/love.png") 0 18px;
+    width: 100px;
+    height: 18px;
+    display: inline-block;
+}
+
+span.star-grade-red{
+    background: url("img/love.png") 0 0;
+    width: 90px;
+    height: 18px;
+    position: absolute;
+}
+
+.basic-info .describe-name .per-customer{
+    color: red;
+}
+
+.basic-info .basic-info-other{
+    padding: 20px 26px 20px 0;
+}
+
+.basic-info .basic-info-others >div:last-child{
+    border-bottom: none;
+}
+
+.basic-info .basic-info-details{
+    display: flex;
+    border-bottom: 1px solid rgb(221,221,221);
+    padding: 20px 0px;
+}
+
+.basic-info-details >div:first-child{
+    width: 50px;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.basic-info-details >div:nth-child(2){
+    width: 370px;
+    margin-right: 50px;
+}
+
+.basic-info-details >div:last-child{
+    width: 80px;
+    margin: auto;
+    margin-right: 20px;
+    text-align: right;
+    border-bottom: none;
+    /*border-left: 1px solid rgb(221,221,221);*/
+}
+
+.basic-info .basic-info-others .basic-info-details span{
+    font-size: 25px;
+    font-family: "Microsoft YaHei";
+}
+
+.basic-info .basic-info-others .book span{
+    font-size: 30px;
+}
+
+.basic-info .basic-info-others .takeout span{
+    font-size: 30px;
+}
+
+.container .tag {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.basic-info .basic-info-others .book-tag span{
+    font-size: 22px;
+}
+
+.basic-info .basic-info-others .takeout-tag span{
+    font-size: 22px;
+}
+
+.container .tag-book{
+    background-color: rgb(255, 69, 70);
+}
+
+.container .tag-takeout{
+    background-color: rgb(255, 165, 0);
+}
+
+/**
+ * 基本信息
+ */
+
+/**
+ * 团购信息
+ */
+
+/**
+ * 本店推荐菜
+ */
+
+/**
+ * 用户评论
+ */
+
+/**
+ * 搜索
+ */
+
+/**
+ * 营业信息
+ */
+
+/**
+ * 地图
+ */
+
+/**
+ * 附件
+ */
+
+/**
+ * 此地微博
+ */
+
+#info2{
+    /*position: absolute;*/
+    width: 640px;
+    height: 106px;
+    float: left;
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -682px;
+}
+
+#info3{
+    /*position: absolute;*/
+    /*width: 640px;*/
+    height: 244px;
+    /*float: left;*/
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -808px;
+}
+
+#info4{
+    /*position: absolute;*/
+    /*width: 640px;*/
+    height: 281px;
+    /*float: left;*/
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -1072px;
+}
+
+#info5{
+    /*position: absolute;*/
+    /*width: 640px;*/
+    height: 82px;
+    /*float: left;*/
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -1373px;
+}
+
+#info6{
+    /*position: absolute;*/
+    /*width: 640px;*/
+    height: 417px;
+    /*float: left;*/
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -1475px;
+}
+
+#info7{
+    /*position: absolute;*/
+    /*width: 640px;*/
+    height: 82px;
+    /*float: left;*/
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -1912px;
+}
+
+#info8{
+    /*position: absolute;*/
+    /*width: 640px;*/
+    height: 208px;
+    /*float: left;*/
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -2014px;
+}
+
+#info9{
+    /*position: absolute;*/
+    /*width: 640px;*/
+    height: 82px;
+    /*float: left;*/
+    /*margin-top: 128px;*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    background-position:0px -2242px;
+}
