@@ -93,6 +93,7 @@ span.h4{
     background: url("img/star.png") 0 -72px;
     width: 96px;
     height: 24px;
+    position: absolute;
 }
 
 .go-here{
@@ -370,4 +371,5 @@ span.h4{
     background: url("img/star.png") 0 -24px;
     width: 72px;
     height: 24px;
+    position: absolute;
 }
