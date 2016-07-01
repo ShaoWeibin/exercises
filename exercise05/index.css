@@ -1,18 +1,21 @@
-/*#widget {*/
-    /*position: absolute;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-/*}*/
-
 body {
-    height: 100%;
     background: grey;
 }
 
 .container{
     width: 640px;
     margin: 0 auto;
-    background: rgb(249,249,249);
+    background: rgb(246,246,246);
+    font-family: "Microsoft YaHei";
+}
+
+.container small{
+    font-size: 70%;
+}
+
+.container >div{
+    margin-bottom: 20px;
+    background: white;
 }
 
 .container a{
@@ -21,185 +24,6 @@ body {
 
 .container a.text{
     color: rgb(32,159,255);
-}
-
-.high-light{
-    color: red;
-}
-
-/**
- * 基本信息
- */
-.basic-header{
-    height: 225px;
-    background: rgb(0,145,255);
-}
-
-.basic-name{
-    /*margin-top: 40px;*/
-    margin-left:30px;
-    padding: 3px 0;
-    font-size: 35px;
-    color: white;
-    font-family: "Microsoft YaHei";
-    font-weight: 100;
-}
-
-.basic-name .star-grade{
-    background: url("img/love.png") 0 18px;
-    width: 100px;
-    height: 18px;
-    display: inline-block;
-}
-
-span.star-grade-red{
-    background: url("img/love.png") 0 0;
-    width: 90px;
-    height: 18px;
-    position: absolute;
-}
-
-.basic-name .per-customer{
-    color: red;
-}
-
-.basic-div{
-    display: flex;
-    border-bottom: 1px solid rgb(221,221,221);
-    padding: 20px 0px;
-}
-
-.basic-div >div:first-child{
-    width: 50px;
-    margin: auto;
-    margin-left: 20px;
-}
-
-.basic-div >div:nth-child(2){
-    width: 370px;
-    margin-right: 50px;
-}
-
-.basic-div >div:last-child{
-    width: 80px;
-    margin: auto;
-    margin-right: 20px;
-    text-align: right;
-    border-bottom: none;
-    /*border-left: 1px solid rgb(221,221,221);*/
-}
-
-.basic-div span{
-    font-size: 25px;
-    font-family: "Microsoft YaHei";
-}
-
-.basic-info{
-    border-top: 1px solid rgb(221,221,221);
-    border-bottom: 1px solid rgb(221,221,221);
- }
-
-.basic-info >div {
-    margin-left: 26px;
-    border-bottom: 1px solid rgb(221,221,221);
-}
-
-.basic-info >div:last-child {
-    border-bottom: none;
-}
-
-#info1div3, #info1div4, #info1div5{
-    height: 82px;
-    vertical-align: middle;
-}
-
-.basic-info .basic-info-describe{
-    display: flex;
-    padding: 20px 26px 20px 0;
-}
-
-.basic-info .describe-pic{
-    width:130px;
-    height:130px;
-    float:left;
-    background-position:-2000px -10000px;
-}
-
-.basic-info .describe-name > div{
-    margin-left:20px;
-    padding: 3px 0;
-    font-size: 30px;
-    font-family: "Microsoft YaHei";
-    font-weight: normal;
-}
-
-.basic-info .describe-name > div small{
-    color: gray;
-}
-
-.basic-info .describe-name .star-grade{
-    background: url("img/love.png") 0 18px;
-    width: 100px;
-    height: 18px;
-    display: inline-block;
-}
-
-span.star-grade-red{
-    background: url("img/love.png") 0 0;
-    width: 90px;
-    height: 18px;
-    position: absolute;
-}
-
-.basic-info .describe-name .per-customer{
-    color: red;
-}
-
-.basic-info .basic-info-other{
-    padding: 20px 26px 20px 0;
-}
-
-.basic-info .basic-info-others >div:last-child{
-    border-bottom: none;
-}
-
-.basic-info .basic-info-details{
-    display: flex;
-    border-bottom: 1px solid rgb(221,221,221);
-    padding: 20px 0px;
-}
-
-.basic-info-details >div:first-child{
-    width: 50px;
-    margin: auto;
-    margin-left: 20px;
-}
-
-.basic-info-details >div:nth-child(2){
-    width: 370px;
-    margin-right: 50px;
-}
-
-.basic-info-details >div:last-child{
-    width: 80px;
-    margin: auto;
-    margin-right: 20px;
-    text-align: right;
-    border-bottom: none;
-    /*border-left: 1px solid rgb(221,221,221);*/
-}
-
-.basic-info .basic-info-others .basic-info-details span{
-    font-size: 25px;
-    font-family: "Microsoft YaHei";
-}
-
-.basic-info .basic-info-others .book span{
-    font-size: 30px;
-}
-
-.basic-info .basic-info-others .takeout span{
-    font-size: 30px;
 }
 
 .container .tag {
@@ -214,142 +38,336 @@ span.star-grade-red{
     border-radius: 4px;
 }
 
-.basic-info .basic-info-others .book-tag span{
-    font-size: 22px;
+.high-light{
+    color: red;
 }
 
-.basic-info .basic-info-others .takeout-tag span{
-    font-size: 22px;
+span.h1{
+    font-size: 36px;
+    font-family: YouYuan;
 }
 
-.container .tag-book{
-    background-color: rgb(255, 69, 70);
+span.h2{
+    font-size: 32px;
 }
 
-.container .tag-takeout{
-    background-color: rgb(255, 165, 0);
+span.h3{
+    font-size: 25px;
+}
+
+span.h4{
+    font-size: 21px;
 }
 
 /**
  * 基本信息
  */
-
-/**
- * 团购信息
- */
-
-/**
- * 本店推荐菜
- */
-
-/**
- * 用户评论
- */
-
-/**
- * 搜索
- */
-
-/**
- * 营业信息
- */
-
-/**
- * 地图
- */
-
-/**
- * 附件
- */
-
-/**
- * 此地微博
- */
-
-#info2{
-    /*position: absolute;*/
-    width: 640px;
-    height: 106px;
-    float: left;
-    /*margin-top: 128px;*/
-    /*margin: 0 auto;*/
-    /*display: block;*/
-    background-position:0px -682px;
+.basic{
+    font-size: 36px;
 }
 
-#info3{
-    /*position: absolute;*/
-    /*width: 640px;*/
-    height: 244px;
-    /*float: left;*/
-    /*margin-top: 128px;*/
-    /*margin: 0 auto;*/
-    /*display: block;*/
-    background-position:0px -808px;
+.basic-header{
+    background: rgb(0,145,255);
+    display: flex;
+    color: white;
 }
 
-#info4{
-    /*position: absolute;*/
-    /*width: 640px;*/
-    height: 281px;
-    /*float: left;*/
-    /*margin-top: 128px;*/
-    /*margin: 0 auto;*/
-    /*display: block;*/
-    background-position:0px -1072px;
+.basic-name{
+    margin-left:30px;
+    padding: 40px 0px 0 0;
+    font-family: YouYuan;
 }
 
-#info5{
-    /*position: absolute;*/
-    /*width: 640px;*/
-    height: 82px;
-    /*float: left;*/
-    /*margin-top: 128px;*/
-    /*margin: 0 auto;*/
-    /*display: block;*/
-    background-position:0px -1373px;
+.basic-name div{
+    padding-bottom: 20px;
 }
 
-#info6{
-    /*position: absolute;*/
-    /*width: 640px;*/
-    height: 417px;
-    /*float: left;*/
-    /*margin-top: 128px;*/
-    /*margin: 0 auto;*/
-    /*display: block;*/
-    background-position:0px -1475px;
+.basic-name span.star-grade{
+    background: url("img/star.png") 0 -48px;
+    width: 120px;
+    height: 24px;
+    display: inline-block;
 }
 
-#info7{
-    /*position: absolute;*/
-    /*width: 640px;*/
-    height: 82px;
-    /*float: left;*/
-    /*margin-top: 128px;*/
-    /*margin: 0 auto;*/
-    /*display: block;*/
-    background-position:0px -1912px;
+.basic-name span.star-grade-white{
+    background: url("img/star.png") 0 -72px;
+    width: 96px;
+    height: 24px;
 }
 
-#info8{
-    /*position: absolute;*/
-    /*width: 640px;*/
-    height: 208px;
-    /*float: left;*/
-    /*margin-top: 128px;*/
-    /*margin: 0 auto;*/
-    /*display: block;*/
-    background-position:0px -2014px;
+.go-here{
+    margin: auto 30px auto auto;
+    padding-left: 30px;
+    font-family: YouYuan;
+    border-left: 1px solid white;
 }
 
-#info9{
-    /*position: absolute;*/
-    /*width: 640px;*/
-    height: 82px;
-    /*float: left;*/
-    /*margin-top: 128px;*/
-    /*margin: 0 auto;*/
-    /*display: block;*/
-    background-position:0px -2242px;
+.go-here >div:first-child{
+    width: 107px;
+    height: 97px;
+    background: url("img/go-here.png");
+}
+
+.go-here >div:last-child{
+    text-align: center;
+}
+
+.basic-div{
+    display: flex;
+    margin-left: 30px;
+    border-bottom: 1px solid rgb(221,221,221);
+    padding: 20px 0px;
+}
+
+.basic-div:last-child{
+    border: none;
+}
+
+.basic-div >div:first-child{
+    width: 50px;
+    margin: auto 0;
+}
+
+.basic-div >div:nth-child(2){
+    width: 370px;
+    margin: auto 50px auto auto;
+}
+
+.basic-div >div:last-child{
+    width: 80px;
+    margin: auto 30px auto auto;
+    text-align: right;
+    border-bottom: none;
+}
+
+.basic-div >div:last-child span{
+    color: rgb(200,200,200);
+}
+
+.basic-png{
+    width: 46px;
+    height: 46px;
+}
+
+.loc-png{
+    background: url("img/loc.png");
+}
+
+.tel-png{
+    background: url("img/tel.png");
+}
+
+/**
+ * 商店信息
+ */
+.shop{
+}
+
+.shop >div:last-child{
+    border: none;
+}
+
+.shop-info,
+.shop-benefit,
+.shop-sells{
+    margin-left: 30px;
+    padding: 25px 0;
+    border-bottom: 1px solid rgb(221,221,221);
+}
+
+.shop-info-name,
+.shop-info-level{
+    display: flex;
+}
+
+.shop-info-name{
+    margin-bottom: 10px;
+}
+
+.shop-info-name >div:first-child{
+    margin: auto 20px auto 0;
+}
+
+.shop-info-name >div:nth-child(2){
+    width: 400px;
+    margin: auto 0;
+}
+
+.shop-info-name >div:last-child{
+    width: 150px;
+    margin: auto 30px auto auto;
+    text-align: right;
+}
+
+.shop-info-level >div:first-child{
+    margin: auto 15px auto 0;
+}
+
+.shop-info-level >div:nth-child(2){
+    width: 400px;
+    margin: auto 0;
+    color: rgb(150,150,150);
+}
+
+.shop-info-level >div:last-child{
+    width: 150px;
+    margin: auto 30px auto auto;
+    text-align: center;
+    color: rgb(150,150,150);
+}
+
+.shop-info-level span.level{
+    background: url("img/level.png") -5px -2px;
+    width: 89px;
+    height: 33px;
+    display: inline-block;
+    margin: auto 0;
+}
+
+.shop-info-level span.percent{
+    color: red;
+}
+
+.shop-info .tag-info{
+    background-color: rgb(255, 85, 0);
+}
+
+.shop-benefit{
+    display: flex;
+}
+
+.shop-benefit >div:first-child{
+    margin: auto 20px auto 0;
+}
+
+.shop-benefit .tag-benefit{
+    background-color: rgb(247, 183, 31);
+}
+
+.shop-sells{
+    display: block;
+}
+
+.shop-sells >div:first-child{
+    margin: 0 0 20px 0;
+}
+
+.shop-sells ul{
+    margin: 0;
+    padding: 0;
+}
+
+.goods-list li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.goods-list li img,
+.goods-list li span{
+    display: block;
+    font-size: 21px;
+    color: rgb(150,150,150);
+}
+
+.goods-list li div{
+    position: relative;
+}
+
+.goods-list li div span.price{
+    position: absolute;
+    width: 80px;
+    height: 28px;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background: rgba(122,121,119,0.8);
+    border-bottom-right-radius: 5px;
+}
+
+.goods-list li div span.name{
+    position: absolute;
+    font-size: 14px;
+    left: 15px;
+    top: 15px;
+    text-align: center;
+    color: rgb(50,50,50);
+}
+
+.goods-list >li:nth-child(2) div span.name{
+    color: rgb(113,191,0);
+}
+
+.goods-list >li:last-child div span.name{
+    color: rgb(125,64,45);
+}
+
+.goods-list li:first-child{
+    padding-left: 0;
+}
+
+.goods-list li:last-child{
+    padding-right: 0;
+}
+
+/**
+ * 评论信息
+ */
+.comment{
+}
+
+.comment-header{
+    display: flex;
+    margin-left: 30px;
+    border-bottom: 1px solid rgb(221,221,221);
+}
+
+.comment-header:last-child{
+    border: none;
+}
+
+.comment-header >div:first-child{
+    /*width: 80%;*/
+    margin: 20px 0;
+}
+
+.comment-header >div:last-child{
+    /*width: 20%;*/
+    margin: auto 30px auto auto;
+    text-align: right;
+    border-bottom: none;
+}
+
+.comment-header >div:last-child span{
+    color: rgb(200,200,200);
+}
+
+.comment-main{
+    padding: 20px 30px;
+}
+
+.comment-main div{
+    color: rgb(120,120,120);
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.comment-main >div:last-child{
+    font-size: 21px;
+    color: rgb(150,150,150);
+    margin: 0;
+}
+
+.comment-main span.star-grade{
+    background: url("img/star.png") 0 0;
+    width: 120px;
+    height: 24px;
+    display: inline-block;
+    margin: auto 10px;
+}
+
+.comment-main span.star-grade-red{
+    background: url("img/star.png") 0 -24px;
+    width: 72px;
+    height: 24px;
 }
