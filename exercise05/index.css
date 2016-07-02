@@ -200,6 +200,10 @@ span.h4{
     text-align: right;
 }
 
+.shop-info-name >div:last-child span{
+    vertical-align: middle;
+}
+
 .shop-info-level >div:first-child{
     margin: auto 15px auto 0;
 }
