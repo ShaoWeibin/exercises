@@ -1,0 +1,330 @@
+/**
+ * Add by weibin.shao 2016/6/18
+ */
+
+body {
+    /*background: grey;*/
+    font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", "Microsoft YaHei UI";
+}
+
+.page{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.footer a, .container a{
+    text-decoration: none;
+    color: rgb(160,160,160);
+}
+
+.footer a:hover, .container a:hover{
+    color: dodgerblue;
+}
+
+.page .bolder{
+    font-weight: bolder;
+}
+
+.page .gray-font{
+    color: rgb(160,160,160);
+}
+
+.page .green-font{
+    color: rgb(144,175,77);
+}
+
+.page .gray-bk{
+    background: rgb(240,240,240);
+}
+
+.page small{
+    font-size: 70%;
+}
+
+/**
+ * header
+ */
+header{
+    background: rgb(144,175,77);
+    display: flex;
+    padding: 0 130px;
+}
+
+header div{
+    margin: auto 0;
+    display: flex;
+}
+
+header .masthead{
+    display: inline-block;
+}
+
+header .header-side{
+    margin: auto;
+    margin-right: 0;
+}
+
+header .logo .logo-img{
+    width: 37px;
+    height: 31px;
+    margin: auto 0;
+    background: url('img/logo.png');
+}
+
+header a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+header ul{
+    margin: 0;
+    margin-left: 30px;
+    padding: 0;
+}
+
+header li{
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+header li a{
+    font-size: 22px;
+}
+
+header li:hover{
+    background: rgb(129,157,69);
+}
+
+header .header-search{
+    margin: auto;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    color: gray;
+    font-size: .9rem;
+    text-align: center;
+    border: none;
+}
+
+header .hearder-name{
+    font-size: 25px;
+    color: white;
+    margin: auto;
+    margin-left: 20px;
+}
+
+header .hearder-name >sup{
+    font-size: 15px;
+    margin: 4px 0 auto 10px;
+    width: 30px;
+    background: white;
+    color: rgb(144,175,77);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.container{
+    padding: 0 130px;
+}
+
+/**
+ * main
+ */
+main{
+    margin: 0 auto;
+    width: 650px;
+    background: white;
+}
+
+main div{
+    margin: auto 0;
+}
+
+main .personal-setting{
+    width: 680px;
+    margin-bottom: 100px;
+}
+
+main .personal-setting p{
+    text-align: center;
+    font-size: 40px;
+    font-family: YouYuan;
+}
+
+main .personal-setting-list{
+    display: flex;
+    background: rgb(247,247,247);
+}
+
+main .personal-setting-list ur{
+    width: 100%;
+}
+
+main .personal-setting-list li{
+    display: block;
+    padding: 0;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+main .personal-setting-list li:hover{
+    background: rgb(200,200,200);
+}
+
+main .personal-setting-list li span{
+    font-weight: normal;
+    color: rgb(100,100,100);
+}
+
+main .setting-details{
+    background: none;
+}
+
+main .setting-details summary{
+    margin: auto 40px;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+}
+
+main .setting-details summary div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main .setting-details summary >div:last-child{
+    /*float: right;*/
+    position: absolute;
+    right: 0;
+}
+
+main .setting-details summary >div:last-child span{
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto 0 auto 20px;
+}
+
+main .setting-details summary::-webkit-details-marker{
+    display: none;
+}
+
+main .setting-details summary span.icon{
+    background: url('./img/arrow.png') no-repeat 0 0;
+    -webkit-transform: rotate(180deg);
+    width: 20px;
+    height: 20px;
+}
+
+main .setting-details[open] summary span.icon{
+    -webkit-transform: rotate(0deg);
+}
+
+main .setting-details .content{
+    background: white;
+    padding: 30px 40px;
+}
+
+main .setting-details .content form span{
+    display: inline-block;
+    margin: auto 20px auto 0;
+    width: 70px;
+    height: 40px;
+    color: black;
+    text-align: right;
+}
+
+main .setting-details .content form input{
+    width: 350px;
+    height: 40px;
+    color: grey;
+    margin: 6px auto;
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+    text-indent: 20px;
+}
+
+main .setting-details .content form input.submit{
+    width: 90px;
+    color: white;
+    text-align: center;
+    text-indent: 0;
+    background: rgb(144,175,77);
+    border-radius: 3px;
+    border: none;
+}
+
+main .personal-img .content .img{
+    margin: 0 auto 20px auto;
+    width: 80px;
+    height: 80px;
+}
+
+main .personal-img .content .img img{
+    border-radius: 40px;
+}
+
+main .personal-img .content button{
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    padding: 0 30px;
+    border: none;
+    background: rgb(247,247,247);
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+    color: rgb(100,100,100);
+}
+
+main .personal-tel .content form input.old-tel{
+    border: none;
+    color: black;
+}
+
+main .personal-tel .content form input.id-code{
+    width: 230px;
+}
+
+main .personal-tel .content form input.get-id-code{
+    width: 100px;
+    margin-left: 20px;
+    background: rgb(247,247,247);
+    color: rgb(100,100,100);
+}
+
+main .personal-thd-account .content form input.account{
+    width: 100px;
+    text-align: center;
+    text-indent: 0;
+    border: none;
+    color: black;
+}
+
+main .personal-thd-account .content form input.remove-bind{
+    width: 100px;
+    margin-left: 20px;
+    background: rgb(247,247,247);
+    color: rgb(100,100,100);
+}
+
+main .personal-thd-account .content form span.icon{
+    background: url('./img/weixin.png') no-repeat 0 0;
+    width: 37px;
+    height: 31px;
+    vertical-align: middle;
+}
+
+/**
+ * footer
+ */
+.footer{
+    border-top: 1px solid gainsboro;
+    /*display: flex;*/
+    padding: 20px 130px;
+    font-size: 17px;
+}
+
+.footer a{
+    text-decoration: none;
+}
