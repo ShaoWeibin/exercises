@@ -1,0 +1,23 @@
+{
+  "name": "exercise08",
+  "version": "1.0.0",
+  "description": "webpack 练习",
+  "dependencies": {
+
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaoWeibin/exercises.git"
+  },
+  "author": "weibin.shao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaoWeibin/exercises/issues"
+  },
+  "homepage": "https://github.com/ShaoWeibin/exercises#readme"
+}
