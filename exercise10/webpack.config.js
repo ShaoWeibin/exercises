@@ -4,19 +4,23 @@ module.exports = {
         path: __dirname + '/dist',
         filename: 'bundle.js'
     },
+    devtool: 'source-map',
     devServer: {
         contentBase: './dist',  // 本地服务器加载页面所在目录
         inline: true  // 实时刷新
     },
+    resolve: {
+        extensions: ['*' ,'.js', '.jsx']
+    },
     module: {
         rules: [
             {
-                test: /(\.jsx||.js)$/,
+                test: /\.(js|jsx)$/,
                 use: {
                     loader: 'babel-loader',
                     options: {
                         presets: [
-                            'es2015', 'react'
+                            'es2015', 'stage-3', 'react'
                         ]
                     }
                 },
