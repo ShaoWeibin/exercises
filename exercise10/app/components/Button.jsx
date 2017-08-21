@@ -5,7 +5,6 @@
  */
 
 import React, {Component} from 'react';
-// import * as style from '../style.css';
 
 export default class Button extends Component {
     constructor(props) {
